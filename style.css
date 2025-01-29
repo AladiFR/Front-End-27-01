@@ -16,7 +16,7 @@ body {
 .sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 10px 0 0 10px;
+    padding: 16px 0 0 16px;
     margin-bottom: 5px;
 }
 
@@ -24,7 +24,7 @@ body {
     background-color: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 10px 0 0 10px;
+    padding: 16px 0 0 16px;
 }
 
 .logo img {
@@ -91,7 +91,7 @@ body {
 }
 
 .library .library__content .fa-plus {
-    margin: 20px 10px;
+    margin: 25px 15px;
 }
 
 .section-playlist {
@@ -146,7 +146,7 @@ body {
 }
 
 .sidebar .cookies {
-    margin: 20px 15px;
+    margin: 25px 20px;
 }
 
 .sidebar .cookies a{
@@ -171,4 +171,46 @@ body {
     width: 170px;
     margin: 8px;
     padding: 8px;
+}
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family:"DM Sans", sans-serif;
+}
+
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
