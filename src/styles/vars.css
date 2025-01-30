@@ -1,8 +1,18 @@
 :root {
     /*Fontes*/
     --font-dm-sans: "DM sans", sans-serif;
+
+    /*colors*/
+    --color-black: #000;
     --color-white-first: #fff;
     --color-white-second: #b3b3b3;
     --color-gray-first: #121212;
     --color-gray-second: #242424;
+
+    /*color bg*/
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+
+    /*color button content*/
+    --color-button: #a7a7a7;
 }

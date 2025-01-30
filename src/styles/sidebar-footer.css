@@ -1,7 +1,7 @@
 /*trabalhando nesse projeto a forma de codar no css expecificando cada item*/
 
 body {
-    background-color: black;
+    background-color: var(--color-black);
     font-family: var(--font-dm-sans);
 }
 
@@ -129,7 +129,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--color-white-first);
-    color: #000;
+    color: var(--color-black);
     border-radius: 20px;
     border: none;
     width: 113px;
@@ -201,7 +201,7 @@ body {
 
 .disclaimer-premium button {
     background-color: var(--color-white-first);
-    color: #000000;
+    color: var(--color-black);
     font-size: 16px;
     font-weight: bold;
     padding: 14px 30px;
